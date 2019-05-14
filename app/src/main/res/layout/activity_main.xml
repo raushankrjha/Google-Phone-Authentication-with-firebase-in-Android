@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+
+  <ImageView
+      android:layout_gravity="center"
+      android:src="@drawable/rj"
+      android:layout_width="250dp"
+      android:layout_height="250dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@android:drawable/stat_sys_phone_call"
+        android:id="@+id/start_auth_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorAccent"
+        android:text="Mobile Authentication"
+        android:textColor="#fff" />
+    <Button
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:layout_marginTop="10dp"
+        android:id="@+id/google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorAccent1"
+        android:text="Google Authentication"
+        android:textColor="#fff" />
+
+
+</LinearLayout>
